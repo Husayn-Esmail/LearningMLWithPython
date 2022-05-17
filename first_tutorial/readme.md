@@ -6,6 +6,5 @@ any of the code used in this repository.
 https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
 ##### Understanding the confusion matrix
-<iframe
-	src="https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5"
-	style="width:100%; height: 300px;"></iframe>
+https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5
+
