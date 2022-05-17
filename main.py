@@ -20,3 +20,7 @@ from sklearn.svm import SVC
 url = "iris.csv"
 names = ["sepal-length", "sepal-width", "petal-length", "petal-width", "class"]
 dataset = read_csv(url, names=names)
+
+# shape
+print(dataset.shape)
+
