@@ -1,4 +1,4 @@
-#!mlvenv/bin/python3
+#!../mlvenv/bin/python3
 # Load Libraries
 from pandas import read_csv
 from pandas.plotting import scatter_matrix
@@ -82,6 +82,8 @@ model.fit(X_train, Y_train)
 predictions = model.predict(X_validation)
 
 # evaluate predictions
-print(accuracy_score(Y_validation, predictions))
+print("accuracy score: %f" % accuracy_score(Y_validation, predictions))
+print("Confusion Matrix: ")
 print(confusion_matrix(Y_validation, predictions))
+print("Classification Report: ")
 print(classification_report(Y_validation, predictions))
