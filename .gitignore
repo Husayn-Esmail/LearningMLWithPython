@@ -1,3 +1,6 @@
 mlvenv/
 resnet50_coco_best_v2.1.0.h5
 camera_detected_video.avi
+.DS_Store
+
+
